@@ -1,0 +1,32 @@
+input[type=text] {
+	display:inline-block;
+	margin:-10px 10px;
+	width:200px;
+	padding: 12px 20px;
+	box-sizing:border-box;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.select {
+	padding:10px 20px;
+}
+
+div.forms {
+	float:center;
+	display: block;
+    text-align: center;
+	width:300px;
+}
+
+form {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+	text-shadow: 2px 0 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black;
+	color:white;
+
+}

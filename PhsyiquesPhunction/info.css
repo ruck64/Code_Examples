@@ -1,0 +1,40 @@
+* {
+    margin-left:auto;
+	margin-right:auto;
+    padding:0
+}
+
+h2{
+	font-family:'Tangerine', helvetica;
+	text-align:center;
+	display: block;
+}
+ul {
+	margin-left:auto;
+	margin-right:auto;
+    list-style:none;
+    position:relative;
+	padding:20px;
+}
+ul.list {
+	margin-left: auto;
+    width: 450px;
+    margin: 20px;
+    margin-right: auto;
+    display: inline-block;
+	text-align:center;
+}
+ul.list li {
+    width:150px;
+}
+ul.list ul{margin-bottom:20px}
+
+ul.list ul ul {
+    position:absolute;
+    top:0;
+    left:170px;
+    width:150px;
+}
+ul.list ul li {
+    background:transparent;
+}
