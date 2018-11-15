@@ -1,0 +1,46 @@
+/me
+* CS 321
+* 9-30-17
+* Rutger Luther
+**************** 
+
+/*  I am not the creator of the test files. Those were created by the professor */
+
+OVERVIEW:
+
+Creates a max heap that allows inserts and extraction
+
+INCLUDED FILES:
+
+ * PQueue.java
+ * Process.java
+ * MaxHeap.java
+ * ProcessGenerator.java
+ * README - this file
+
+
+COMPILING AND RUNNING:
+
+install TestNG
+build path to libraries
+run with testNG
+ Console output will give the results after the program finishes.
+
+
+PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+
+maxheapify looks at both nodes under the parent to see if key value is better. 
+then swaps accordingly to put in proper order
+
+TESTING:
+
+did the unit test and testNG
+
+DISCUSSION:
+ 
+i had to learn java. 
+i had to research a lot of java and get a fair amount of help from the tutors. 
+ 
+
+----------------------------------------------------------------------------
+

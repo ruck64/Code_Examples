@@ -1,0 +1,120 @@
+****************
+* Project 03/Hashtable
+* 321 tim
+* 10-21-17
+* Rutger Luther
+**************** 
+
+OVERVIEW:
+
+ We create functions to implement a hashtable that can use both linear and double hashing functions.
+ The second section is nearly copy and past of the original ignorning where you hash out your functoins.
+
+
+INCLUDED FILES:
+
+ * HashLeader.java - source file has all my functions and constructs
+ * HashObject.java - source file creates the ADT with sets and gets
+ * HashTest.java = testing file for my functions
+ * HashTestWithJava.java
+ * README - this file
+
+
+COMPILING AND RUNNING:
+
+ Give three arguments to command line.
+ First is the type 1 = random, 2 = timeinmillis, 3 = word-file
+ Second is load factor which must be less than 1
+ Third is set to 0 for no word file and 1 for a the word file
+ 
+ For HashTestWithJava:
+ Three arguments are needed. 
+ First is the type 1 = random, 2 = timeinmillis, 3 = word-file
+ Second is load factor which must be less than 1.
+ The third is how large you would like the table to be.
+ 
+  From the directory containing all source files, compile the
+ driver class with the command:
+ $ javac HashTest.java
+ 
+   From the directory containing all source files, compile the
+ driver class with the command:
+ $ javac HashTestWithJava.java
+ 
+  Run the compiled class file with the command:
+ $ java HashTest arg1 arg2 arg3
+ 
+  Run the compiled class file with the command:
+ $ java HashTest arg1 arg2 arg3
+
+Console output will give the results after the program finishes.
+
+
+PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+
+ I have some function calls that are used through out the test. However following that it is the constructs that create and manages the hash tables
+
+ I have two main classes besides the tester. One that has sets and gets and has the variables that can be held within the object. So you could easily had more variable to the hashtable that you would want to add in.
+ 
+ I tried to create functions that could just be called in the constructs to do all the hashing but java didnt want to take an int,string, or double as a type T. If you can figure out how to you can substantially lower the amount of code in the constructs.
+
+
+TESTING:
+
+ I tested all load factors at least once along with trying others multiple times. It meets all the requirements that are known to me. If you dont put in the correct args then it wont work. So you cant easily break it.
+ I can find any bugs myself.
+
+DISCUSSION:
+ 
+ 
+ Java didn't like me using T for doubles,int, or strings. Spent hours trying to figure out how to get eclipse to find my file. Finally found out it had to be outside or source file.
+ Still not proficient in java but much better than last project. Spent several hours with tutors and researching some with no answers such as the T thing. I fixed that one by just writing each individual one for each type.
+ Later found out about wrappers after I had changed all of that.
+ 
+Nothing really clicked most of this was straight forward, if you spent long enough reading and asking questions about what the write up wanted from you.
+
+For section two talked to some tutors about what the functions actually do just to clarify and avoid self confusion.
+
+
+
+APPENDIX
+
+Input source 1: random number
+
+alpha   Linear  Double
+-----------------------------
+0.5  1.250  1.037
+0.6  1.300  1.053
+0.7  1.351  1.069
+0.8  1.399  1.0877
+0.9  1.452  1.110
+0.95  1.475  1.121
+0.98  1.493  1.130
+0.99  1.493  1.128
+
+Input source 2: current time
+
+alpha   Linear  Double
+-----------------------------
+0.5  526.0  1051.
+0.6  508.6  1016.3
+0.7  511.4  1021.9
+0.8  535.6  1070.
+0.9  510.5  1020.
+0.95  121.5  242.1
+0.98  120.6 240.2
+0.99  112.6  224.3
+
+Input source 3: word-list
+
+alpha   Linear  Double
+-----------------------------
+0.5  176.6  175.7
+0.6  202.1  201.2
+0.7  230.4  229.5
+0.8  254.0  253.1
+0.9  276.8 275.9
+0.95  288.0  287.0
+0.98  290.3  289.4
+0.99  298.1  297.2
+

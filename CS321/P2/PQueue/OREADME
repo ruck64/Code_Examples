@@ -1,0 +1,21 @@
+To test your CPUScheduler output:
+
+1. Make a directory for this assignment.
+
+2. Implement all your java programs in this directory.
+
+3. Copy all files in the zip file to this directory. Be sure that the file run_test is executable. If it's not, use this command:
+	
+	chmod 775 run_test
+    
+4. To run the test program, execute the following on the command line
+
+   	./run_test probability
+
+   where the argument "probability" can be any value between 0 and 1 (inclusive)
+
+5. You'll find the results of the MaxHeap and PQueue tests in the PQ_output file.
+You can also find additional information about the results in your test-output folder.
+Just open the index.html in browser.
+
+The results of the CPUScheduler tests are in the diff_output, which should be empty. 
