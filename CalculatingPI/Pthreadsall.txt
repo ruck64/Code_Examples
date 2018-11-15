@@ -1,0 +1,174 @@
+***** Sourcing (loading) modules 
+
+mkdir -p  bin
+mkdir -p  obj
+gcc  -c -o obj/pthreadDriver.o src/pthreadDriver.c
+g++ -lpthread -g -Isrc src/pi.c src/pthreadDriver.c -o bin/CalculatingPI_pthread
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.350000
+Number of threads: 1
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.360000
+Number of threads: 2
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.360000
+Number of threads: 3
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.420000
+Number of threads: 4
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.520000
+Number of threads: 5
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.630000
+Number of threads: 6
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.690000
+Number of threads: 7
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.740000
+Number of threads: 8
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.800000
+Number of threads: 9
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 10
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.810000
+Number of threads: 11
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 12
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 13
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 14
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 15
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 16
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 17
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 18
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 19
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 20
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 21
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 22
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 23
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 24
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 25
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 26
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 27
+pthreads
+
+answer is 3.141593 using 1000000000 iterations
+
+time it took:3.830000
+Number of threads: 28

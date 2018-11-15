@@ -1,0 +1,28 @@
+Emmanuel Massaquoi
+Grade: .95
+
+Comments:
+make test does not compile code successfully
+------------- OUTPUT -----------------------
+[catherineolschan@onyx CalculatingPI]$ make test
+g++ -Isrc  -I../googletest/googletest/include -I../googletest/googletest  -c \
+            ../googletest/googletest/src/gtest_main.cc -o obj/gtest_main.o
+ar rv obj/gtest_main.a obj/gtest-all.o obj/gtest_main.o
+r - obj/gtest-all.o
+r - obj/gtest_main.o
+g++ -Isrc   -c -o obj/CalculatingPi.o src/CalculatingPi.cpp
+src/CalculatingPi.cpp: In function ‘long double parseCommandLine(int, char**)’:
+src/CalculatingPi.cpp:20:9: error: ‘exit’ was not declared in this scope
+  exit(-1);
+         ^
+src/CalculatingPi.cpp:21:9: warning: converting to non-pointer type ‘long doubl’ from NULL [-Wconversion-null]
+  return NULL;
+         ^
+make: *** [obj/CalculatingPi.o] Error 1
+
+-------------------------------------------
+
+bin directory should be automatically created from makefile
+you can do this with 
+-mkdir $(BIN)
+

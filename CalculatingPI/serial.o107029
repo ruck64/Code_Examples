@@ -1,0 +1,11 @@
+***** Sourcing (loading) modules 
+
+mkdir -p  bin
+mkdir -p  obj
+gcc  -c -o obj/piDriver.o src/piDriver.c
+g++ -lpthread -g -Isrc src/piDriver.c -o bin/CalculatingPI
+start: 0.000000
+Pi = 3.141593
+end: 10000.000000
+time: 10000.000000
+time it took 0.010000

@@ -1,0 +1,19 @@
+***** Sourcing (loading) modules 
+
+mkdir -p  bin
+mkdir -p  obj
+gcc  -c -o obj/piMP.o src/piMP.c
+gcc  -c -o obj/piMPDriver.o src/piMPDriver.c
+g++ -lpthread -g -Isrc src/piMP.c src/piMPDriver.c -o bin/CalculatingPI_MP -fopenmp
+MP
+final pi is: 3.141593
+time it took:11.550000
+number of threads: 1
+MP
+final pi is: 3.141593
+time it took:13.180000
+number of threads: 14
+MP
+final pi is: 3.141593
+time it took:13.280000
+number of threads: 28

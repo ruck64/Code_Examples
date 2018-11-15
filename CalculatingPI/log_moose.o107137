@@ -1,0 +1,25 @@
+***** Sourcing (loading) modules 
+
+mkdir -p  bin
+mkdir -p  obj
+gcc  -c -o obj/pi.o src/pi.c
+gcc  -c -o obj/pthreadDriver.o src/pthreadDriver.c
+g++ -lpthread -g -Isrc src/pi.c src/pthreadDriver.c -o bin/CalculatingPI_pthread
+pthreads
+
+answer is 2.000000 using 1000000000 iterations
+
+time it took:3.340000
+Number of threads: 1
+pthreads
+
+answer is 3.069314 using 1000000000 iterations
+
+time it took:3.810000
+Number of threads: 14
+pthreads
+
+answer is 3.105666 using 1000000000 iterations
+
+time it took:3.820000
+Number of threads: 28
